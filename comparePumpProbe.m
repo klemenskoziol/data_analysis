@@ -48,7 +48,7 @@ plot(s.freq, pp);
 hold all
 plot(constr2d.freq, proj)
 xlabel('frequency (cm-1)');
-ylabel('absorption (au)');
+ylabel('absorption (normalized)');
 xlim([s.freq(1) s.freq(end)]);
 ylim([-1 1]);
 
