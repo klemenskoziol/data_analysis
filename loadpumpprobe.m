@@ -8,8 +8,15 @@ if ~exist(fname,'file')
   end
 end
 
+%s = construct1d;
+%s.basename = fname;
+%data = load(fname);
+
+%s.freq = data(:,1);
+%s.S = data(:,2);
+
 %load a 1d spectrum
-dummy=load(fname);
+dummy = load(fname);
 s.freq = dummy(1,2:end);
 s.signal = dummy(2:end,2:end);
 s.time = dummy(2:end,1)';

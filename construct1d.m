@@ -1,4 +1,4 @@
-function s=construct2d(varargin)
+function s = construct1d(varargin)
 
 switch nargin
   case 0
